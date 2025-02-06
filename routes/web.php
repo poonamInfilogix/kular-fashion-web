@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\MyAccountController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\ContactUsController;
@@ -21,6 +22,7 @@ Route::get('/', [HomeController::class, 'index'])->name('/');
 
 Route::resources([
     'products' => ProductController::class,
+    'my-account' =>  MyAccountController::class,
     'cart'     => CartController::class,
     'checkout' => CheckoutController::class,
     'contact'  => ContactUsController::class,
