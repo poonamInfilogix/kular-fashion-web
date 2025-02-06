@@ -9,10 +9,10 @@
                         
                         <div class="widget-about-info">
                             <div class="row">
-                                <div class="col-sm-6 col-md-4">
+                                {{-- <div class="col-sm-6 col-md-4">
                                     <span class="widget-about-title">Got Question? Call us 24/7</span>
                                     <a href="tel:123456789">+0123 456 789</a>
-                                </div>
+                                </div> --}}
                                 <div class="col-sm-6 col-md-8">
                                     <span class="widget-about-title">Payment Method</span>
                                     <figure class="footer-payments">
@@ -29,10 +29,10 @@
                         <h4 class="widget-title">Useful links</h4>
 
                         <ul class="widget-list">
-                            <li><a href="#">About Molla</a></li>
+                            <li><a href="{{ route('about.index')}}">About Molla</a></li>
                             <li><a href="#">How to shop on Molla</a></li>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Contact us</a></li>
+                            <li><a href="{{ route('faq')}}">FAQ</a></li>
+                            <li><a href="{{ route('contact.index')}}">Contact us</a></li>
                             <li><a href="#">Log in</a></li>
                         </ul>
                     </div>
@@ -59,8 +59,8 @@
 
                         <ul class="widget-list">
                             <li><a href="#">Sign In</a></li>
-                            <li><a href="#">View Cart</a></li>
-                            <li><a href="#">My Wishlist</a></li>
+                            <li><a href="{{ route('cart.index')}}">View Cart</a></li>
+                            <li><a href="{{ route('wishlist')}}">My Wishlist</a></li>
                             <li><a href="#">Track My Order</a></li>
                             <li><a href="#">Help</a></li>
                         </ul>

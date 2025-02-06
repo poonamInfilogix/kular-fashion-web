@@ -26,3 +26,7 @@ Route::resources([
     'contact'  => ContactUsController::class,
     'about'    => AboutController::class,
 ]);
+
+Route::get('wishlist', [CartController::class, 'wishlist'])->name('wishlist');
+Route::get('faq', [ContactUsController::class, 'faq'])->name('faq');
+Route::get('404', function () { return view('404'); });

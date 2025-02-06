@@ -10,4 +10,9 @@ class ContactUsController extends Controller
     {
         return view('contact-us.index');
     }
+
+    public function faq()
+    {
+        return view('faq.index');
+    }
 }

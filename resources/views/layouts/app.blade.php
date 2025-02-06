@@ -32,7 +32,6 @@
     <!-- Main CSS File -->
     <link rel="stylesheet" href="{{ asset('assets/css/skins/skin-demo-7.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/demos/demo-7.css') }}">
-    
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     @yield('head')
 </head>
@@ -68,6 +67,5 @@
     @yield('script')
 
 </body>
-
 
 </html>
