@@ -753,27 +753,27 @@
                                     <div class="product-action-vertical">
                                         <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
                                         <a href="#" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
-                                    </div><!-- End .product-action-vertical -->
+                                    </div>
 
                                     <div class="product-action">
                                         <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
-                                    </div><!-- End .product-action -->
-                                </figure><!-- End .product-media -->
+                                    </div>
+                                </figure>
 
                                 <div class="product-body">
-                                    <h3 class="product-title"><a href="#">Long-sleeved blouse</a></h3><!-- End .product-title -->
+                                    <h3 class="product-title"><a href="#">Long-sleeved blouse</a></h3>
                                     <div class="product-price">
                                         $84.00
-                                    </div><!-- End .product-price -->
+                                    </div>
                                     <div class="ratings-container">
                                         <div class="ratings">
-                                            <div class="ratings-val" style="width: 60%;"></div><!-- End .ratings-val -->
-                                        </div><!-- End .ratings -->
+                                            <div class="ratings-val" style="width: 60%;"></div>
+                                        </div>
                                         <span class="ratings-text">( 3 Reviews )</span>
-                                    </div><!-- End .rating-container -->
-                                </div><!-- End .product-body -->
-                            </div><!-- End .product -->
-                        </div><!-- End .col-sm-6 col-md-4 col-lg-3 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="col-6 col-md-4 col-lg-3 col-xl-5col">
                             <div class="product product-7 text-center">
                                 <figure class="product-media">
@@ -785,33 +785,33 @@
                                     <div class="product-action-vertical">
                                         <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
                                         <a href="#" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
-                                    </div><!-- End .product-action-vertical -->
+                                    </div>
 
                                     <div class="product-action">
                                         <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
-                                    </div><!-- End .product-action -->
-                                </figure><!-- End .product-media -->
+                                    </div>
+                                </figure>
 
                                 <div class="product-body">
-                                    <h3 class="product-title"><a href="#">Denim jacket</a></h3><!-- End .product-title -->
+                                    <h3 class="product-title"><a href="#">Denim jacket</a></h3>
                                     <div class="product-price">
                                         $80.95
-                                    </div><!-- End .product-price -->
+                                    </div>
                                     <div class="ratings-container">
                                         <div class="ratings">
-                                            <div class="ratings-val" style="width: 20%;"></div><!-- End .ratings-val -->
-                                        </div><!-- End .ratings -->
+                                            <div class="ratings-val" style="width: 20%;"></div>
+                                        </div>
                                         <span class="ratings-text">( 2 Reviews )</span>
-                                    </div><!-- End .rating-container -->
+                                    </div>
                                     <div class="product-nav product-nav-dots">
                                         <a href="#" class="active" style="background: #7ba1c9;"><span class="sr-only">Color name</span></a>
                                         <a href="#" style="background: #333333;"><span class="sr-only">Color name</span></a>
                                         <a href="#" style="background: #feb143;"><span class="sr-only">Color name</span></a>
                                         <a href="#" style="background: #f0c7b7;"><span class="sr-only">Color name</span></a>
-                                    </div><!-- End .product-nav -->
-                                </div><!-- End .product-body -->
-                            </div><!-- End .product -->
-                        </div><!-- End .col-sm-6 col-md-4 col-lg-3 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="col-6 col-md-4 col-lg-3 col-xl-5col">
                             <div class="product product-7 text-center">
                                 <figure class="product-media">
@@ -823,30 +823,30 @@
                                     <div class="product-action-vertical">
                                         <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
                                         <a href="#" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
-                                    </div><!-- End .product-action-vertical -->
+                                    </div>
 
                                     <div class="product-action">
                                         <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
-                                    </div><!-- End .product-action -->
-                                </figure><!-- End .product-media -->
+                                    </div>
+                                </figure>
 
                                 <div class="product-body">
-                                    <h3 class="product-title"><a href="#">Sunglasses</a></h3><!-- End .product-title -->
+                                    <h3 class="product-title"><a href="#">Sunglasses</a></h3>
                                     <div class="product-price">
                                         $56.00
-                                    </div><!-- End .product-price -->
+                                    </div>
                                     <div class="ratings-container">
                                         <div class="ratings">
-                                            <div class="ratings-val" style="width: 20%;"></div><!-- End .ratings-val -->
-                                        </div><!-- End .ratings -->
+                                            <div class="ratings-val" style="width: 20%;"></div>
+                                        </div>
                                         <span class="ratings-text">( 2 Reviews )</span>
-                                    </div><!-- End .rating-container -->
-                                </div><!-- End .product-body -->
-                            </div><!-- End .product -->
-                        </div><!-- End .col-sm-6 col-md-4 col-lg-3 -->
-                    </div><!-- End .row -->
-                </div><!-- End .products -->
-            </div><!-- .End .tab-pane -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="tab-pane p-0 fade" id="new-men-tab" role="tabpanel" aria-labelledby="new-men-link">
                 <div class="products">
                     <div class="row justify-content-center">
@@ -861,31 +861,31 @@
                                     <div class="product-action-vertical">
                                         <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
                                         <a href="#" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
-                                    </div><!-- End .product-action-vertical -->
+                                    </div>
 
                                     <div class="product-action">
                                         <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
-                                    </div><!-- End .product-action -->
-                                </figure><!-- End .product-media -->
+                                    </div>
+                                </figure>
 
                                 <div class="product-body">
-                                    <h3 class="product-title"><a href="#">Linen-blend paper bag trousers</a></h3><!-- End .product-title -->
+                                    <h3 class="product-title"><a href="#">Linen-blend paper bag trousers</a></h3>
                                     <div class="product-price">
                                         $60.00
-                                    </div><!-- End .product-price -->
+                                    </div>
                                     <div class="ratings-container">
                                         <div class="ratings">
-                                            <div class="ratings-val" style="width: 20%;"></div><!-- End .ratings-val -->
-                                        </div><!-- End .ratings -->
+                                            <div class="ratings-val" style="width: 20%;"></div>
+                                        </div>
                                         <span class="ratings-text">( 2 Reviews )</span>
-                                    </div><!-- End .rating-container -->
+                                    </div>
                                     <div class="product-nav product-nav-dots">
                                         <a href="#" class="active" style="background: #d5ad81;"><span class="sr-only">Color name</span></a>
                                         <a href="#" style="background: #333333;"><span class="sr-only">Color name</span></a>
-                                    </div><!-- End .product-nav -->
-                                </div><!-- End .product-body -->
-                            </div><!-- End .product -->
-                        </div><!-- End .col-sm-6 col-md-4 col-lg-3 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="col-6 col-md-4 col-lg-3 col-xl-5col">
                             <div class="product product-7 text-center">
                                 <figure class="product-media">
@@ -898,27 +898,27 @@
                                     <div class="product-action-vertical">
                                         <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
                                         <a href="#" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
-                                    </div><!-- End .product-action-vertical -->
+                                    </div>
 
                                     <div class="product-action">
                                         <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
-                                    </div><!-- End .product-action -->
-                                </figure><!-- End .product-media -->
+                                    </div>
+                                </figure>
 
                                 <div class="product-body">
-                                    <h3 class="product-title"><a href="#">Paper straw shopper</a></h3><!-- End .product-title -->
+                                    <h3 class="product-title"><a href="#">Paper straw shopper</a></h3>
                                     <div class="product-price">
                                     $80.95
-                                    </div><!-- End .product-price -->
+                                    </div>
                                     <div class="ratings-container">
                                         <div class="ratings">
-                                            <div class="ratings-val" style="width: 100%;"></div><!-- End .ratings-val -->
-                                        </div><!-- End .ratings -->
+                                            <div class="ratings-val" style="width: 100%;"></div>
+                                        </div>
                                         <span class="ratings-text">( 6 Reviews )</span>
-                                    </div><!-- End .rating-container -->
-                                </div><!-- End .product-body -->
-                            </div><!-- End .product -->
-                        </div><!-- End .col-sm-6 col-md-4 col-lg-3 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="col-6 col-md-4 col-lg-3 col-xl-5col">
                             <div class="product product-7 text-center">
                                 <figure class="product-media">
@@ -930,27 +930,27 @@
                                     <div class="product-action-vertical">
                                         <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
                                         <a href="#" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
-                                    </div><!-- End .product-action-vertical -->
+                                    </div>
 
                                     <div class="product-action">
                                         <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
-                                    </div><!-- End .product-action -->
-                                </figure><!-- End .product-media -->
+                                    </div>
+                                </figure>
 
                                 <div class="product-body">
-                                    <h3 class="product-title"><a href="#">Trainers</a></h3><!-- End .product-title -->
+                                    <h3 class="product-title"><a href="#">Trainers</a></h3>
                                     <div class="product-price">
                                     $56.00
-                                    </div><!-- End .product-price -->
+                                    </div>
                                     <div class="ratings-container">
                                         <div class="ratings">
-                                            <div class="ratings-val" style="width: 20%;"></div><!-- End .ratings-val -->
-                                        </div><!-- End .ratings -->
+                                            <div class="ratings-val" style="width: 20%;"></div>
+                                        </div>
                                         <span class="ratings-text">( 2 Reviews )</span>
-                                    </div><!-- End .rating-container -->
-                                </div><!-- End .product-body -->
-                            </div><!-- End .product -->
-                        </div><!-- End .col-sm-6 col-md-4 col-lg-3 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="col-6 col-md-4 col-lg-3 col-xl-5col">
                             <div class="product product-7 text-center">
                                 <figure class="product-media">
@@ -963,28 +963,28 @@
                                     <div class="product-action-vertical">
                                         <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
                                         <a href="#" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
-                                    </div><!-- End .product-action-vertical -->
+                                    </div>
 
                                     <div class="product-action">
                                         <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
-                                    </div><!-- End .product-action -->
-                                </figure><!-- End .product-media -->
+                                    </div>
+                                </figure>
 
                                 <div class="product-body">
-                                    <h3 class="product-title"><a href="#">Hooded top </a></h3><!-- End .product-title -->
+                                    <h3 class="product-title"><a href="#">Hooded top </a></h3>
                                     <div class="product-price">
                                         <span class="new-price">$50.00</span>
                                         <span class="old-price">$84.00</span>
-                                    </div><!-- End .product-price -->
+                                    </div>
                                     <div class="ratings-container">
                                         <div class="ratings">
-                                            <div class="ratings-val" style="width: 40%;"></div><!-- End .ratings-val -->
-                                        </div><!-- End .ratings -->
+                                            <div class="ratings-val" style="width: 40%;"></div>
+                                        </div>
                                         <span class="ratings-text">( 4 Reviews )</span>
-                                    </div><!-- End .rating-container -->
-                                </div><!-- End .product-body -->
-                            </div><!-- End .product -->
-                        </div><!-- End .col-sm-6 col-md-4 col-lg-3 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="col-6 col-md-4 col-lg-3 col-xl-5col">
                             <div class="product product-7 text-center">
                                 <figure class="product-media">
@@ -996,27 +996,27 @@
                                     <div class="product-action-vertical">
                                         <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
                                         <a href="#" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
-                                    </div><!-- End .product-action-vertical -->
+                                    </div>
 
                                     <div class="product-action">
                                         <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
-                                    </div><!-- End .product-action -->
-                                </figure><!-- End .product-media -->
+                                    </div>
+                                </figure>
 
                                 <div class="product-body">
-                                    <h3 class="product-title"><a href="#">Vest dress</a></h3><!-- End .product-title -->
+                                    <h3 class="product-title"><a href="#">Vest dress</a></h3>
                                     <div class="product-price">
                                         $89.99
-                                    </div><!-- End .product-price -->
+                                    </div>
                                     <div class="ratings-container">
                                         <div class="ratings">
-                                            <div class="ratings-val" style="width: 80%;"></div><!-- End .ratings-val -->
-                                        </div><!-- End .ratings -->
+                                            <div class="ratings-val" style="width: 80%;"></div>
+                                        </div>
                                         <span class="ratings-text">( 2 Reviews )</span>
-                                    </div><!-- End .rating-container -->
-                                </div><!-- End .product-body -->
-                            </div><!-- End .product -->
-                        </div><!-- End .col-sm-6 col-md-4 col-lg-3 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="col-6 col-md-4 col-lg-3 col-xl-5col">
                             <div class="product product-7 text-center">
                                 <figure class="product-media">
@@ -1028,12 +1028,12 @@
                                     <div class="product-action-vertical">
                                         <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
                                         <a href="#" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
-                                    </div><!-- End .product-action-vertical -->
+                                    </div>
 
                                     <div class="product-action">
                                         <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
-                                    </div><!-- End .product-action -->
-                                </figure><!-- End .product-media -->
+                                    </div>
+                                </figure>
 
                                 <div class="product-body">
                                     <h3 class="product-title"><a href="#">Long-sleeved blouse</a></h3>
@@ -1063,7 +1063,7 @@
 
     <div class="bg-light-2 pt-7 pb-6 testimonials">
         <div class="container">
-            <h2 class="title text-center mb-2">Our Customers Say</h2><!-- End .title text-center -->
+            <h2 class="title text-center mb-2">Our Customers Say</h2>
             <div class="owl-carousel owl-simple owl-testimonials" data-toggle="owl" 
                 data-owl-options='{
                     "nav": false, 
@@ -1077,37 +1077,37 @@
                     }
                 }'>
                 <blockquote class="testimonial testimonial-icon text-center">
-                    <p class="lead">“Really great store”</p><!-- End .lead -->
+                    <p class="lead">“Really great store”</p>
                     <p>“ Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra<br>a, ultricies in, diam. Sed arcu. ”</p>
 
                     <cite>
                         Charly Smith,
                         <span>Customer</span>
                     </cite>
-                </blockquote><!-- End .testimonial -->
+                </blockquote>
 
                 <blockquote class="testimonial testimonial-icon text-center">
-                    <p class="lead">“Friendly Support”</p><!-- End .lead -->
+                    <p class="lead">“Friendly Support”</p>
                     <p>“ Impedit, ratione sequi, sunt incidunt magnam et. Delectus obcaecati optio eius error libero perferendis nesciunt atque dolores magni recusandae! Doloremque quidem error eum quis similique doloribus natus qui ut ipsum.”</p>
 
                     <cite>
                         Damon Stone
                         <span>Customer</span>
                     </cite>
-                </blockquote><!-- End .testimonial -->
+                </blockquote>
 
                 <blockquote class="testimonial testimonial-icon text-center">
-                    <p class="lead">“Free Shipping”</p><!-- End .lead -->
+                    <p class="lead">“Free Shipping”</p>
                     <p>“ Molestias animi illo natus ut quod neque ad accusamus praesentium fuga! Dolores odio alias sapiente odit delectus quasi, explicabo a, modi voluptatibus. Perferendis perspiciatis, voluptate, distinctio earum veritatis animi tempora eget blandit nunc tortor mollis ”</p>
 
                     <cite>
                         John Smith
                         <span>Customer</span>
                     </cite>
-                </blockquote><!-- End .testimonial -->
-            </div><!-- End .testimonials-slider owl-carousel -->
-        </div><!-- End .container -->
-    </div><!-- End .bg-light pt-5 pb-5 -->
+                </blockquote>
+            </div>
+        </div>
+    </div>
 
     <div class="brands-border owl-carousel owl-simple" data-toggle="owl" 
         data-owl-options='{
@@ -1163,5 +1163,5 @@
         <a href="#" class="brand">
             <img src="{{ asset('assets/images/brands/7.png') }}" alt="Brand Name">
         </a>
-    </div><!-- End .owl-carousel -->
+    </div>
 @endsection

@@ -10,4 +10,9 @@ class CartController extends Controller
     {
         return view('cart.index');
     }
+
+    public function wishlist()
+    {
+        return view('cart.wishlist');
+    }
 }

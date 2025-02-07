@@ -19,10 +19,10 @@
                         <a href="#">Links</a>
                         <ul>
                             <li><a href="tel:#"><i class="icon-phone"></i>Call: +0123 456 789</a></li>
-                            <li><a href="#"><i class="icon-heart-o"></i>My Wishlist <span>(3)</span></a></li>
+                            <li><a href="{{ route('wishlist') }}"><i class="icon-heart-o"></i>My Wishlist <span>(3)</span></a></li>
                             <li><a href="{{ route('about.index')}}">About Us</a></li>
                             <li><a href="{{ route('contact.index')}}">Contact Us</a></li>
-                            @if (Auth::check()) <!-- Check if user is authenticated -->
+                            @if (Auth::check())
                                 <li><div class="header-dropdown">
                                     <a href="#"><i class="icon-user"></i>{{ Auth::user()->name }} </a>
                                     <div class="header-menu">
