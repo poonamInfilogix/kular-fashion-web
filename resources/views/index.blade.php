@@ -189,7 +189,7 @@
                                 </div><!-- End .product-price -->
                                 <div class="ratings-container">
                                     <div class="ratings">
-                                        <div class="ratings-val" style="width: 20%;"></div><!-- End .ratings-val -->
+                                        <div class="ratings-val" style="width: 100%;"></div><!-- End .ratings-val -->
                                     </div><!-- End .ratings -->
                                     <span class="ratings-text">( 2 Reviews )</span>
                                 </div><!-- End .rating-container -->
@@ -220,7 +220,7 @@
                                 </div><!-- End .product-price -->
                                 <div class="ratings-container">
                                     <div class="ratings">
-                                        <div class="ratings-val" style="width: 20%;"></div><!-- End .ratings-val -->
+                                        <div class="ratings-val" style="width: 100%;"></div><!-- End .ratings-val -->
                                     </div><!-- End .ratings -->
                                     <span class="ratings-text">( 2 Reviews )</span>
                                 </div><!-- End .rating-container -->
@@ -350,7 +350,7 @@
                                 </div><!-- End .product-price -->
                                 <div class="ratings-container">
                                     <div class="ratings">
-                                        <div class="ratings-val" style="width: 20%;"></div><!-- End .ratings-val -->
+                                        <div class="ratings-val" style="width: 100%;"></div><!-- End .ratings-val -->
                                     </div><!-- End .ratings -->
                                     <span class="ratings-text">( 2 Reviews )</span>
                                 </div><!-- End .rating-container -->
@@ -408,7 +408,7 @@
                                 </div><!-- End .product-price -->
                                 <div class="ratings-container">
                                     <div class="ratings">
-                                        <div class="ratings-val" style="width: 20%;"></div><!-- End .ratings-val -->
+                                        <div class="ratings-val" style="width: 100%;"></div><!-- End .ratings-val -->
                                     </div><!-- End .ratings -->
                                     <span class="ratings-text">( 2 Reviews )</span>
                                 </div><!-- End .rating-container -->
@@ -568,7 +568,7 @@
                                     </div><!-- End .product-price -->
                                     <div class="ratings-container">
                                         <div class="ratings">
-                                            <div class="ratings-val" style="width: 20%;"></div><!-- End .ratings-val -->
+                                            <div class="ratings-val" style="width: 100%;"></div><!-- End .ratings-val -->
                                         </div><!-- End .ratings -->
                                         <span class="ratings-text">( 2 Reviews )</span>
                                     </div><!-- End .rating-container -->
@@ -600,7 +600,7 @@
                                     </div><!-- End .product-price -->
                                     <div class="ratings-container">
                                         <div class="ratings">
-                                            <div class="ratings-val" style="width: 20%;"></div><!-- End .ratings-val -->
+                                            <div class="ratings-val" style="width: 100%;"></div><!-- End .ratings-val -->
                                         </div><!-- End .ratings -->
                                         <span class="ratings-text">( 2 Reviews )</span>
                                     </div><!-- End .rating-container -->
@@ -669,7 +669,7 @@
                                     </div><!-- End .product-price -->
                                     <div class="ratings-container">
                                         <div class="ratings">
-                                            <div class="ratings-val" style="width: 20%;"></div><!-- End .ratings-val -->
+                                            <div class="ratings-val" style="width: 100%;"></div><!-- End .ratings-val -->
                                         </div><!-- End .ratings -->
                                         <span class="ratings-text">( 2 Reviews )</span>
                                     </div><!-- End .rating-container -->
@@ -799,7 +799,7 @@
                                     </div>
                                     <div class="ratings-container">
                                         <div class="ratings">
-                                            <div class="ratings-val" style="width: 20%;"></div>
+                                            <div class="ratings-val" style="width: 100%;"></div>
                                         </div>
                                         <span class="ratings-text">( 2 Reviews )</span>
                                     </div>
@@ -837,7 +837,7 @@
                                     </div>
                                     <div class="ratings-container">
                                         <div class="ratings">
-                                            <div class="ratings-val" style="width: 20%;"></div>
+                                            <div class="ratings-val" style="width: 100%;"></div>
                                         </div>
                                         <span class="ratings-text">( 2 Reviews )</span>
                                     </div>
@@ -875,7 +875,7 @@
                                     </div>
                                     <div class="ratings-container">
                                         <div class="ratings">
-                                            <div class="ratings-val" style="width: 20%;"></div>
+                                            <div class="ratings-val" style="width: 100%;"></div>
                                         </div>
                                         <span class="ratings-text">( 2 Reviews )</span>
                                     </div>
@@ -944,7 +944,7 @@
                                     </div>
                                     <div class="ratings-container">
                                         <div class="ratings">
-                                            <div class="ratings-val" style="width: 20%;"></div>
+                                            <div class="ratings-val" style="width: 100%;"></div>
                                         </div>
                                         <span class="ratings-text">( 2 Reviews )</span>
                                     </div>
@@ -1164,4 +1164,5 @@
             <img src="{{ asset('assets/images/brands/7.png') }}" alt="Brand Name">
         </a>
     </div>
+    @include('products.quick-view')
 @endsection

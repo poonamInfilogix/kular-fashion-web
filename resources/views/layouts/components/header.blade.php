@@ -50,34 +50,29 @@
                 </button>
                 
                 <a href="#" class="logo">
-                    <img src="{{ asset('assets/logo.png') }}" alt="Kular Logo" width="105" height="25">
+                    <img src="{{ asset('assets/logo.png') }}" alt="Kular Logo" width="200" height="100">
                 </a>
 
                 <nav class="main-nav">
                     <ul class="menu sf-arrows">
                         <li class="megamenu-container active">
-                            <a href="{{ route('/')}}">Home</a>
+                            <a href="{{ route('home')}}">Home</a>
                         </li>
                         <li>
-                            <a href="#">Shop</a>
-                        </li>
-                        <li>
-                            <a href="{{ route('products.index')}}" class="sf-with-ul">Product</a>
+                            <a href="{{ route('products.index')}}" class="sf-with-ul">Women</a>
 
                             <div class="megamenu megamenu-sm">
                                 <div class="row no-gutters">
                                     <div class="col-md-6">
                                         <div class="menu-col">
-                                            <div class="menu-title">Product Details</div>
+                                            <div class="menu-title">Women</div>
                                             <ul>
-                                                <li><a href="#">Default</a></li>
-                                                <li><a href="#">Centered</a></li>
-                                                <li><a href="#"><span>Extended Info<span class="tip tip-new">New</span></span></a></li>
-                                                <li><a href="#">Gallery</a></li>
-                                                <li><a href="#">Sticky Info</a></li>
-                                                <li><a href="#">Boxed With Sidebar</a></li>
-                                                <li><a href="#">Full Width</a></li>
-                                                <li><a href="#">Masonry Sticky Info</a></li>
+                                                <li><a href="#">New Arrivals</a></li>
+                                                <li><a href="#">Jeans</a></li>
+                                                <li><a href="#">Shirts</a></li>
+                                                <li><a href="#">Shoes</a></li>
+                                                <li><a href="#">Trousers</a></li>
+                                                <li><a href="#">overshirts</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -95,6 +90,78 @@
                                     </div>
                                 </div>
                             </div>
+                        </li>
+                        <li>
+                            <a href="{{ route('products.index')}}" class="sf-with-ul">Men</a>
+
+                            <div class="megamenu megamenu-sm">
+                                <div class="row no-gutters">
+                                    <div class="col-md-6">
+                                        <div class="menu-col">
+                                            <div class="menu-title">Men</div>
+                                            <ul>
+                                                <li><a href="#">New Arrivals</a></li>
+                                                <li><a href="#">Jeans</a></li>
+                                                <li><a href="#">Shirts</a></li>
+                                                <li><a href="#">Shoes</a></li>
+                                                <li><a href="#">Trousers</a></li>
+                                                <li><a href="#">overshirts</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="banner banner-overlay">
+                                            <a href="#">
+                                                <img src="{{ asset('assets/images/menu/banner-2.jpg') }}" alt="Banner">
+
+                                                <div class="banner-content banner-content-bottom">
+                                                    <div class="banner-title text-white">New Trends<br><span><strong>spring 2019</strong></span></div><!-- End .banner-title -->
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="{{ route('products.index')}}" class="sf-with-ul">Kids</a>
+
+                            <div class="megamenu megamenu-sm">
+                                <div class="row no-gutters">
+                                    <div class="col-md-6">
+                                        <div class="menu-col">
+                                            <div class="menu-title">Men</div>
+                                            <ul>
+                                                <li><a href="#">New Arrivals</a></li>
+                                                <li><a href="#">Jeans</a></li>
+                                                <li><a href="#">Shirts</a></li>
+                                                <li><a href="#">Shoes</a></li>
+                                                <li><a href="#">Trousers</a></li>
+                                                <li><a href="#">overshirts</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="banner banner-overlay">
+                                            <a href="#">
+                                                <img src="{{ asset('assets/images/menu/banner-2.jpg') }}" alt="Banner">
+
+                                                <div class="banner-content banner-content-bottom">
+                                                    <div class="banner-title text-white">New Trends<br><span><strong>spring 2019</strong></span></div><!-- End .banner-title -->
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="megamenu-container">
+                            <a href="#">Brands</a>
+                        </li>
+                        <li class="megamenu-container">
+                            <a href="#">Outlet</a>
                         </li>
                     </ul>
                 </nav>

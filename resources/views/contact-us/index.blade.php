@@ -4,8 +4,7 @@
     <nav aria-label="breadcrumb" class="breadcrumb-nav border-0 mb-0">
         <div class="container">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="{{ route('/')}}">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                <li class="breadcrumb-item"><a href="{{ route('home')}}">Home</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Contact us</li>
             </ol>
         </div>
@@ -30,15 +29,18 @@
                                 <ul class="contact-list">
                                     <li>
                                         <i class="icon-map-marker"></i>
-                                        70 Washington Square South New York, NY 10012, United States
+                                        Kular Fashion
+                                        19-21 Ferryquay Street
+                                        Derry ~ Londonderry
+                                        BT48 6JB
                                     </li>
                                     <li>
                                         <i class="icon-phone"></i>
-                                        <a href="tel:#">+92 423 567</a>
+                                        <a href="tel:#">+44 000 000</a>
                                     </li>
                                     <li>
                                         <i class="icon-envelope"></i>
-                                        <a href="https://portotheme.com/cdn-cgi/l/email-protection#bb98"><span class="__cf_email__" data-cfemail="6d04030b022d200201010c430e0200">[email&#160;protected]</span></a>
+                                        <a href="#"><span class="__cf_email__" data-cfemail="6d04030b022d200201010c430e0200">[email&#160;protected]</span></a>
                                     </li>
                                 </ul>
                             </div>

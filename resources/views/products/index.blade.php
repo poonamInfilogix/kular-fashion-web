@@ -9,7 +9,7 @@
     <nav aria-label="breadcrumb" class="breadcrumb-nav mb-2">
         <div class="container">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="{{ route('/') }}">Home</a></li>
+                <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
                 <li class="breadcrumb-item"><a href="#">Shop</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Grid 4 Columns</li>
             </ol>
@@ -37,49 +37,6 @@
                                         <option value="date">Date</option>
                                     </select>
                                 </div>
-                            </div>
-                            <div class="toolbox-layout">
-                                <a href="#" class="btn-layout">
-                                    <svg width="16" height="10">
-                                        <rect x="0" y="0" width="4" height="4" />
-                                        <rect x="6" y="0" width="10" height="4" />
-                                        <rect x="0" y="6" width="4" height="4" />
-                                        <rect x="6" y="6" width="10" height="4" />
-                                    </svg>
-                                </a>
-
-                                <a href="#" class="btn-layout">
-                                    <svg width="10" height="10">
-                                        <rect x="0" y="0" width="4" height="4" />
-                                        <rect x="6" y="0" width="4" height="4" />
-                                        <rect x="0" y="6" width="4" height="4" />
-                                        <rect x="6" y="6" width="4" height="4" />
-                                    </svg>
-                                </a>
-
-                                <a href="#" class="btn-layout">
-                                    <svg width="16" height="10">
-                                        <rect x="0" y="0" width="4" height="4" />
-                                        <rect x="6" y="0" width="4" height="4" />
-                                        <rect x="12" y="0" width="4" height="4" />
-                                        <rect x="0" y="6" width="4" height="4" />
-                                        <rect x="6" y="6" width="4" height="4" />
-                                        <rect x="12" y="6" width="4" height="4" />
-                                    </svg>
-                                </a>
-
-                                <a href="#" class="btn-layout active">
-                                    <svg width="22" height="10">
-                                        <rect x="0" y="0" width="4" height="4" />
-                                        <rect x="6" y="0" width="4" height="4" />
-                                        <rect x="12" y="0" width="4" height="4" />
-                                        <rect x="18" y="0" width="4" height="4" />
-                                        <rect x="0" y="6" width="4" height="4" />
-                                        <rect x="6" y="6" width="4" height="4" />
-                                        <rect x="12" y="6" width="4" height="4" />
-                                        <rect x="18" y="6" width="4" height="4" />
-                                    </svg>
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -875,4 +832,5 @@
         </div>
     </div>
 </div>
+@include('products.quick-view')
 @endsection

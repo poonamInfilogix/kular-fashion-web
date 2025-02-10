@@ -55,8 +55,8 @@ blockquote {
   line-height: 1;
   color: #fff;
   border: .7rem solid #f9f9f9;
-  background-color: #cc6666;
-  box-shadow: 0 0 0 0.1rem #cc6666;
+  background-color: #030629;
+  box-shadow: 0 0 0 0.1rem #030629;
   margin-bottom: 2.6rem; }
 
 .brands-border {
@@ -79,8 +79,8 @@ blockquote {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem; }
   .btn.underline:hover, .btn.underline:focus {
-    border-color: #cc6666;
-    background-color: #cc6666; }
+    border-color: #030629;
+    background-color: #030629; }
 
 .btn.banner-link {
   text-transform: uppercase; }
@@ -99,16 +99,16 @@ blockquote {
   padding-left: 0;
   padding-right: 0; }
   .banner .banner-link.btn:hover, .banner .banner-link.btn:focus, .banner .banner-link.btn:active {
-    color: #cc6666;
-    border-color: #cc6666;
+    color: #030629;
+    border-color: #030629;
     background-color: transparent; }
 
 .color-grey.banner .banner-link.btn {
   color: #777;
   border-color: #777; }
   .color-grey.banner .banner-link.btn:hover, .color-grey.banner .banner-link.btn:focus, .color-grey.banner .banner-link.btn:active {
-    color: #cc6666;
-    border-color: #cc6666;
+    color: #030629;
+    border-color: #030629;
     background-color: transparent; }
 
 .banner.text-white .banner-subtitle, .banner.text-white .banner-title {
@@ -210,12 +210,12 @@ blockquote {
     .product.product-7 .btn-product span {
       color: #fff; }
     .product.product-7 .btn-product:hover, .product.product-7 .btn-product:focus {
-      background-color: #cc6666; }
+      background-color: #030629; }
   .product.product-7 .btn-product-icon {
     color: #fff;
     background-color: #333; }
     .product.product-7 .btn-product-icon:hover, .product.product-7 .btn-product-icon:focus {
-      background-color: #cc6666; }
+      background-color: #030629; }
   .product.product-7 .product-nav-dots {
     margin-bottom: 1.5rem; }
 
@@ -254,7 +254,7 @@ blockquote {
     padding: 1.2rem 0 2.5rem;
     margin-left: .8rem;
     margin-right: .8rem;
-    background-color: rgba(204, 102, 102, 0.85);
+    background-color: #030629;
     border-radius: .3rem;
     border: none; }
     .deal-countdown .countdown-section:not(:last-child):after {
@@ -367,7 +367,7 @@ blockquote {
   .footer .widget-about p {
     max-width: 540px; }
   .footer .widget-about-info a {
-    color: #cc6666; }
+    color: #030629; }
   .footer .widget-about-title {
     color: #fff; }
   .footer .widget {
@@ -379,14 +379,13 @@ blockquote {
 .widget-newsletter form {
   padding-top: 2.5rem; }
   .widget-newsletter form .btn {
-    background-color: #fff;
-    color: #333;
+    background-color: #030629;
+    color: #fff;
     border: none; }
     .widget-newsletter form .btn:hover, .widget-newsletter form .btn:focus {
-      background-color: #cc6666;
+      background-color: #030629bf;
       color: #fff; }
   .widget-newsletter form .form-control:not(:focus) {
-    border-color: #fff;
     background-clip: border-box; }
 
 .footer-bottom .container,
