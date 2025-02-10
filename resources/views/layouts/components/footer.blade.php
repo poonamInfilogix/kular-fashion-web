@@ -2,10 +2,10 @@
     <div class="footer-middle">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-12 col-lg-4">
+                <div class="col-sm-12 col-lg-3">
                     <div class="widget widget-about">
-                        <img src="{{ asset('assets/images/logo.png') }}" class="footer-logo bg-white" alt="Footer Logo" width="105" height="25">
-                        <p>Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus. </p>
+                        <img src="{{ asset('assets/images/logo.png') }}" class="footer-logo bg-white" alt="Footer Logo" width="200" height="100">
+                        <p>Delivering timeless style and trusted quality since 1977. From Derry to the world, we bring you premium clothing and exceptional service.</p>
                         
                         <div class="widget-about-info">
                             <div class="row">
@@ -29,8 +29,8 @@
                         <h4 class="widget-title">Useful links</h4>
 
                         <ul class="widget-list">
-                            <li><a href="{{ route('about.index')}}">About Molla</a></li>
-                            <li><a href="#">How to shop on Molla</a></li>
+                            <li><a href="{{ route('about.index')}}">About</a></li>
+                            <li><a href="#">How to shop</a></li>
                             <li><a href="{{ route('faq')}}">FAQ</a></li>
                             <li><a href="{{ route('contact.index')}}">Contact us</a></li>
                             <li><a href="#">Log in</a></li>
@@ -67,11 +67,11 @@
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-lg-2">
+                <div class="col-sm-6 col-lg-3">
                     <div class="widget widget-newsletter">
                         <h4 class="widget-title">Sign up to newsletter</h4>
 
-                        <p>Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan.</p>
+                        <p>Stay Updated with the Latest Insights, Tips, and Exclusive Offers – Delivered Straight to Your Inbox!</p>
                         
                         <form action="#">
                             <div class="input-group">
@@ -89,7 +89,7 @@
 
     <div class="footer-bottom">
         <div class="container-fluid">
-            <p class="footer-copyright">Copyright © 2019 Molla Store. All Rights Reserved.</p>
+            <p class="footer-copyright">Copyright © 2025 Kular Fashion. All Rights Reserved.</p>
             <ul class="footer-menu">
                 <li><a href="#">Terms Of Use</a></li>
                 <li><a href="#">Privacy Policy</a></li>

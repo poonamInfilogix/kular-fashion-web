@@ -18,7 +18,7 @@ use App\Http\Controllers\AboutController;
 Route::post('authenticate', [AuthController::class, 'authenticate'])->name('authenticate');
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 
-Route::get('/', [HomeController::class, 'index'])->name('/');
+Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::resources([
     'products' => ProductController::class,
