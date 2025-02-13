@@ -44,11 +44,11 @@
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col-sm-6">
-                                            <form action="#" method="POST">
+                                            <form action="#">
                                                 @csrf
                                                 <label for="email" class="form-label">Enter Email/Mobile number</label>
-                                                <input type="email" class="form-control" id="email" name="email" required>
-                                                <button type="submit" class="btn btn-primary">CONTINUE</button>
+                                                <input type="email" class="form-control" id="email" name="email" >
+                                                <button type="submit" class="btn btn-primary" id="continueButton">CONTINUE</button>
                                             </form>
                                             <p class="mt-3">By continuing, you agree to Flipkart’s <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p>
                                         </div>
@@ -76,22 +76,22 @@
                             </div>
                             <div id="collapseDelivery" class="collapse" aria-labelledby="headingDelivery" data-parent="#checkoutAccordion">
                                 <div class="card-body">
-                                    <form action="#" method="POST">
+                                    <form action="#" >
                                         @csrf
                                         <div class="row">
                                             <div class="col-sm-4">
                                                 <label for="name" class="form-label">Name</label>
-                                                <input type="text" class="form-control" id="name" name="name" placeholder="Name" value="" required>
+                                                <input type="text" class="form-control" id="name" name="name" placeholder="Name" value="" >
                                             </div>
                                             <div class="col-sm-4">
                                                 <label for="phone_number" class="form-label">Phone Number</label>
-                                                <input type="number" class="form-control" id="phone_number" name="phone_number" placeholder="Phone Number" value="" required>
+                                                <input type="number" class="form-control" id="phone_number" name="phone_number" placeholder="Phone Number" value="" >
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-sm-4">
                                                 <label for="postcode" class="form-label">Postcode</label>
-                                                <input type="number" class="form-control" id="postcode" name="postcode" placeholder="postcode" value="" required>
+                                                <input type="number" class="form-control" id="postcode" name="postcode" placeholder="postcode" value="" >
                                             </div>
                                             <div class="col-sm-4">
                                                 <label for="locality" class="form-label">Locality</label>
@@ -107,7 +107,7 @@
                                         <div class="row">
                                             <div class="col-sm-4">
                                                 <label for="city" class="form-label">City/District/Town</label>
-                                                <input type="text" class="form-control" id="city" name="city" placeholder="Enter City" required>
+                                                <input type="text" class="form-control" id="city" name="city" placeholder="Enter City" >
                                             </div>
                                             <div class="col-sm-4">
                                                 <label for="locality" class="form-label">State</label>
@@ -117,14 +117,14 @@
                                         <div class="row">
                                             <div class="col-sm-4">
                                                 <label for="landmark" class="form-label">Landmark (Optional)</label>
-                                                <input type="text" class="form-control" id="landmark" name="landmark" placeholder="Enter Landmark" required>
+                                                <input type="text" class="form-control" id="landmark" name="landmark" placeholder="Enter Landmark" >
                                             </div>
                                             <div class="col-sm-4">
                                                 <label for="alternate-phone-number" class="form-label">Alternate Phone(Optional)</label>
                                                 <input type="number" class="form-control" id="alternate-phonenumber" name="alternate-phonenumber" placeholder="Alternate Phone(Optional)" >
                                             </div>
                                         </div>
-                                        <button type="submit" class="btn btn-primary">Save Address</button>
+                                        <button type="submit" class="btn btn-primary" id="deliveryAddres_">Save Address</button>
                                     </form>
                                 </div>
                             </div>
@@ -186,7 +186,7 @@
                             </div>
                             <div id="collapsePayment" class="collapse" aria-labelledby="headingPayment" data-parent="#checkoutAccordion">
                                 <div class="card-body">
-                                    <form action="#" method="POST">
+                                    <form action="#">
                                         @csrf
                                             <div class="mb-3">
                                                 <label for="paymentMethod" class="form-label">Payment Method</label>
@@ -212,7 +212,7 @@
                                             <div id="upiSection" style="display: none;">
                                                 <div class="mb-3">
                                                     <label for="upiId" class="form-label">Enter your UPI ID</label>
-                                                    <input type="text" class="form-control" id="upiId" name="upi_id" placeholder="example@upi" required>
+                                                    <input type="text" class="form-control" id="upiId" name="upi_id" placeholder="example@upi" >
                                                 </div>
                                             </div>
                                         </div>
@@ -259,4 +259,29 @@
     </div>
 </div>
 <x-include-plugins :plugins="['tabs']"></x-include-plugins>
+
+@push('scripts')
+
+<script>
+            $(document).ready(function() {
+              
+                $('#continueButton').click(function(event) {
+                    event.preventDefault(); // Prevent the form from submitting
+                                  
+                    $('#collapseLogin').collapse('hide');
+
+                    $('#collapseDelivery').collapse('show');
+                });
+
+                $('#deliveryAddres_').click(function(event) {
+                    event.preventDefault(); // Prevent the form from submitting
+                   
+                    $('#collapseDelivery').collapse('hide');
+
+                    $('#collapseOrderSummary').collapse('show');
+                });
+            });
+    </script>
+        
+@endpush
 @endsection
