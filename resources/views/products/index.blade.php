@@ -3,7 +3,7 @@
 <div class="container-fluid">
     <div class="page-header text-center" style="background-image: url('assets/images/page-header-bg.jpg')">
         <div class="container">
-            <h1 class="page-title">Grid 4 Columns<span>Shop</span></h1>
+            <h1 class="page-title">Hugo Boss<span>Shop</span></h1>
         </div>
     </div>
     <nav aria-label="breadcrumb" class="breadcrumb-nav mb-2">
@@ -11,7 +11,7 @@
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
                 <li class="breadcrumb-item"><a href="#">Shop</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Grid 4 Columns</li>
+                <li class="breadcrumb-item active" aria-current="page">Hugo Boss</li>
             </ol>
         </div>
     </nav>
