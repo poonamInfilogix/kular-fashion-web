@@ -49,7 +49,7 @@
                     <i class="icon-bars"></i>
                 </button>
                 
-                <a href="#" class="logo">
+                <a href="{{ route('home') }}" class="logo">
                     <img src="{{ asset('assets/logo.png') }}" alt="Kular Logo" width="200" height="100">
                 </a>
 
