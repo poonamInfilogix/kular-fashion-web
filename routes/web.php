@@ -9,14 +9,15 @@ use App\Http\Controllers\CartController;
 use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\ContactUsController;
 use App\Http\Controllers\AboutController;
-
+use App\Http\Controllers\OrderController;
 
 Route::post('authenticate', [AuthController::class, 'authenticate'])->name('authenticate');
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/products/view', [ProductController::class, 'productView'])->name('products.view');
-Route::get('/checkout', [CheckoutController::class, 'index'])->name('checkout.index');
+Route::get('/checkout', [OrderController::class, 'index'])->name('checkout.index');
+Route::get('/track-order', [OrderController::class, 'trackOrder'])->name('order.track');
 
 Route::resources([
     'products' => ProductController::class,
