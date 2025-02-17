@@ -32,7 +32,7 @@
                                     </div>
                                 </div></li>
                             @else
-                                <li><a href="#signin-modal" data-toggle="modal"><i class="icon-user"></i>Login</a></li>
+                                <li><a href="#"  data-toggle="modal" data-target="#signin-modal"><i class="icon-user"></i>Login</a></li>
                             @endif
                         </ul>
                     </li>

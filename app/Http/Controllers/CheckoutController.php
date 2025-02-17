@@ -10,9 +10,4 @@ class CheckoutController extends Controller
     {
         return view('checkout.index');
     }
-
-    public function checkout()
-    {
-        return view('checkout.new-checkout');
-    }
 }

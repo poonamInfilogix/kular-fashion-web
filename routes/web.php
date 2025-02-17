@@ -16,12 +16,12 @@ Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/products/view', [ProductController::class, 'productView'])->name('products.view');
-Route::get('/new-checkout', [CheckoutController::class, 'checkout'])->name('new-checkout');
+Route::get('/checkout', [CheckoutController::class, 'index'])->name('checkout.index');
+
 Route::resources([
     'products' => ProductController::class,
     'my-account' => MyAccountController::class,
     'cart'     => CartController::class,
-    'checkout' => CheckoutController::class,
     'contact'  => ContactUsController::class,
     'about'    => AboutController::class,
 ]);
