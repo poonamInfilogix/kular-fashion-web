@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="{{ asset('assets/css/skins/skin-demo-7.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/demos/demo-7.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    
+    @stack('head')
     @yield('head')
 </head>
 

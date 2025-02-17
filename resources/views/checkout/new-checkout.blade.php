@@ -1,5 +1,9 @@
 @extends('layouts.app')
 @section('content')
+    @push('head')
+        <link rel="stylesheet" href="{{ asset('assets/css/checkout.css') }}">
+    @endpush
+
     <style>
         .btn-link {
             color: #eeeef5 !important;
@@ -33,7 +37,7 @@
                         <div id="checkoutAccordion">
 
                             <!-- Login / Register Section -->
-                            <div class="card my-1">
+                            <div class="card step my-2">
                                 <div class="card-header" id="headingLogin">
                                     <h5 class="mb-0">
                                         <button class="btn" type="button" data-toggle="collapse"
@@ -75,7 +79,7 @@
                             </div>
 
                             <!-- Delivery Address Section -->
-                            <div class="card my-1">
+                            <div class="card step my-2">
                                 <div class="card-header" id="headingDelivery">
                                     <h5 class="mb-0">
                                         <button class="btn collapsed" type="button" data-toggle="collapse"
@@ -154,7 +158,7 @@
                             </div>
 
                             <!-- Payment Options Section -->
-                            <div class="card my-1">
+                            <div class="card step my-2">
                                 <div class="card-header" id="headingPayment">
                                     <h5 class="mb-0">
                                         <button class="btn collapsed" type="button" data-toggle="collapse"
@@ -167,46 +171,42 @@
                                 <div id="collapsePayment" class="collapse" aria-labelledby="headingPayment"
                                     data-parent="#checkoutAccordion">
                                     <div class="card-body">
-                                        <form action="#">
-                                            @csrf
-                                            <div class="mb-3">
-                                                <label for="paymentMethod" class="form-label">Payment Method</label>
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="payment_method"
-                                                        id="creditCard" value="credit_card" checked>
-                                                    <label class="form-check-label" for="creditCard">Credit Card</label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="payment_method"
-                                                        id="paypal" value="paypal">
-                                                    <label class="form-check-label" for="paypal">PayPal</label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="payment_method"
-                                                        id="bankTransfer" value="bank_transfer">
-                                                    <label class="form-check-label" for="bankTransfer">Bank
-                                                        Transfer</label>
-                                                </div>
-                                                <!-- UPI Option -->
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="payment_method"
-                                                        id="upi" value="upi">
-                                                    <label class="form-check-label" for="upi">UPI Payment (PhonePe,
-                                                        Google Pay, etc.)</label>
+                                        <div class="mb-3">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="payment_method"
+                                                    id="creditCard" value="credit_card" checked>
+                                                <label class="form-check-label" for="creditCard">Credit Card</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="payment_method"
+                                                    id="paypal" value="paypal">
+                                                <label class="form-check-label" for="paypal">PayPal</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="payment_method"
+                                                    id="bankTransfer" value="bank_transfer">
+                                                <label class="form-check-label" for="bankTransfer">Bank
+                                                    Transfer</label>
+                                            </div>
+                                            <!-- UPI Option -->
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="payment_method"
+                                                    id="upi" value="upi">
+                                                <label class="form-check-label" for="upi">UPI Payment (PhonePe,
+                                                    Google Pay, etc.)</label>
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <div id="upiSection" style="display: none;">
+                                                <div class="mb-3">
+                                                    <label for="upiId" class="form-label">Enter your UPI ID</label>
+                                                    <input type="text" class="form-control" id="upiId"
+                                                        name="upi_id" placeholder="example@upi">
                                                 </div>
                                             </div>
-                                            <div class="mb-3">
-                                                <div id="upiSection" style="display: none;">
-                                                    <div class="mb-3">
-                                                        <label for="upiId" class="form-label">Enter your UPI ID</label>
-                                                        <input type="text" class="form-control" id="upiId"
-                                                            name="upi_id" placeholder="example@upi">
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        </div>
 
-                                            <button type="submit" class="btn btn-primary">Proceed to Payment</button>
-                                        </form>
+                                        <button type="button" class="btn btn-primary">Proceed to Payment</button>
                                     </div>
                                 </div>
                             </div>
